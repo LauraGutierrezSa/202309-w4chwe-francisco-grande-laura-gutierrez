@@ -1,0 +1,8 @@
+@use "../variables/colors";
+@use "../variables/fonts";
+
+.popular-destination-line {
+  width: 227px;
+  color: colors.$primary-dark-color;
+  border: 3px;
+}
