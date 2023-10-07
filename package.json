@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-style": "sass src/sass/styles.scss public/styles/styles.css",
-    "build-style:dev": "sass --watch src/sass/styles.css public/styles/styles.css",
+    "build-styles": "sass src/sass/styles.scss public/styles/styles.css",
+    "build-styles:dev": "sass --watch src/sass/styles.css public/styles/styles.css",
     "prepare": "husky install"
   },
   "author": "",
