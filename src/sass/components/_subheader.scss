@@ -1,5 +1,4 @@
-@use "../variables/colors";
-@use "../variables/fonts";
+@use "../variables/variables";
 
 .popular-destinations {
   width: 288px;
@@ -7,24 +6,24 @@
   gap: 32px;
 
   .h1-measurements {
-    font-family: fonts.$primary-font-family;
-    font-weight: fonts.$primary-font-weight;
-    font-size: fonts.$primary-font-size;
-    line-height: fonts.$primary-line-height;
-    color: colors.$third-dark-color;
+    font-family: variables.$primary-font-family;
+    font-weight: variables.$primary-font-weight;
+    font-size: variables.$primary-font-size;
+    line-height: variables.$primary-line-height;
+    color: variables.$third-dark-color;
   }
 
   .popular-destination-line {
     width: 227px;
-    color: colors.$primary-dark-color;
+    color: variables.$primary-dark-color;
     border: 3px;
   }
 
   .p-measurements {
-    font-family: fonts.$secondary-font-family;
-    font-weight: fonts.$primary-font-weight;
-    size: fonts.$secondary-font-size;
-    line-height: fonts.$secondary-line-height;
-    color: colors.$fourth-dark-color;
+    font-family: variables.$secondary-font-family;
+    font-weight: variables.$primary-font-weight;
+    size: variables.$secondary-font-size;
+    line-height: variables.$secondary-line-height;
+    color: variables.$fourth-dark-color;
   }
 }

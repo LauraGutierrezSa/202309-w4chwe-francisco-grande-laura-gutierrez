@@ -1,10 +1,9 @@
-@use "../variables/colors";
-@use "../variables/fonts";
+@use "../variables/variables";
 
 .button {
   width: 60px;
   height: 66px;
-  background-color: colors.$third-dark-color;
+  background-color: variables.$third-dark-color;
   border-radius: 12px;
   padding: 28px 20px 28px 20px;
   gap: 4px;
