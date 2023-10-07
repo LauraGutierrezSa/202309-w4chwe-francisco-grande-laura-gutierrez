@@ -1,0 +1,30 @@
+@use "../variables/colors";
+@use "../variables/fonts";
+
+.popular-destinations {
+  width: 288px;
+  height: 63px;
+  gap: 32px;
+
+  .h1-measurements {
+    font-family: fonts.$primary-font-family;
+    font-weight: fonts.$primary-font-weight;
+    font-size: fonts.$primary-font-size;
+    line-height: fonts.$primary-line-height;
+    color: colors.$third-dark-color;
+  }
+
+  .popular-destination-line {
+    width: 227px;
+    color: colors.$primary-dark-color;
+    border: 3px;
+  }
+
+  .p-measurements {
+    font-family: fonts.$secondary-font-family;
+    font-weight: fonts.$primary-font-weight;
+    size: fonts.$secondary-font-size;
+    line-height: fonts.$secondary-line-height;
+    color: colors.$fourth-dark-color;
+  }
+}
