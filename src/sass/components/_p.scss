@@ -1,7 +1,10 @@
+@use "../variables/colors";
+@use "../variables/fonts";
+
 .p-measurements {
-  font-family: $secondary-font-family;
-  font-weight: $primary-font-weight;
-  size: $secondary-font-size;
-  line-height: $secondary-line-height;
-  color: $fourth-dark-color;
+  font-family: fonts.$secondary-font-family;
+  font-weight: fonts.$primary-font-weight;
+  size: fonts.$secondary-font-size;
+  line-height: fonts.$secondary-line-height;
+  color: colors.$fourth-dark-color;
 }

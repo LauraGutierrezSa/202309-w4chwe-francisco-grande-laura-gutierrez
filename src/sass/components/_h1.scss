@@ -1,7 +1,10 @@
+@use "../variables/colors";
+@use "../variables/fonts";
+
 .h1-measurements {
-  font-family: $primary-font-family;
-  font-weight: $primary-font-weight;
-  font-size: $primary-font-size;
-  line-height: $primary-line-height;
-  color: $third-dark-color;
+  font-family: fonts.$primary-font-family;
+  font-weight: fonts.$primary-font-weight;
+  font-size: fonts.$primary-font-size;
+  line-height: fonts.$primary-line-height;
+  color: colors.$third-dark-color;
 }
