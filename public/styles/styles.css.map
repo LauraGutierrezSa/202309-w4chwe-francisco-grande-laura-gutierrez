@@ -1,11 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [
-    "../../src/sass/variables/_colors.scss",
-    "../../src/sass/core/_resets.scss"
-  ],
-  "names": [],
-  "mappings": "AAAA;EACE;;;ACDF;AAAA;AAAA;EAGE;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA",
-  "file": "styles.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/core/_resets.scss","../../src/sass/core/_globals.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;EAGE;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA;;;AClBF;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA","file":"styles.css"}
