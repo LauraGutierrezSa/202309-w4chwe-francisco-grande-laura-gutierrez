@@ -1,10 +1,6 @@
 @use "../variables/variables";
 
 .popular-destinations {
-  width: 288px;
-  height: 63px;
-  gap: 32px;
-
   &__h1-measurements {
     font-family: variables.$primary-font-family;
     font-weight: variables.$primary-font-weight;
