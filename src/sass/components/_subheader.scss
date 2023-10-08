@@ -11,6 +11,7 @@
 
   &__line {
     border-style: solid;
+    display: inline grid;
     width: 227px;
     border-color: variables.$primary-dark-color;
   }
