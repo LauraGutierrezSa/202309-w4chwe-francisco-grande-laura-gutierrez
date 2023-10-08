@@ -1,12 +1,35 @@
 @use "../variables/variables";
 
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 30px;
+  overflow: scroll;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 20px;
+  filter: sepia(0.2);
+  width: 288px;
+  height: 320px;
+}
+
 .cards-container-berlin {
   position: relative;
+
   &__text {
     color: variables.$main-light-color;
     position: absolute;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 20px;
+    left: 20px;
   }
+
   &__text-location {
     display: block;
   }
@@ -14,11 +37,18 @@
 
 .cards-container-london {
   position: relative;
+
   &__text {
     color: variables.$main-light-color;
     position: absolute;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 20px;
+    left: 20px;
   }
+
   &__text-location {
     display: block;
   }
@@ -26,11 +56,18 @@
 
 .cards-container-venice {
   position: relative;
+
   &__text {
     color: variables.$main-light-color;
     position: absolute;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 20px;
+    left: 20px;
   }
+
   &__text-location {
     display: block;
   }
