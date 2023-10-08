@@ -1,0 +1,37 @@
+@use "../variables/variables";
+
+cards-container-berlin {
+  position: relative;
+  &__image {
+    background-image: url(/public/images/berlin.webp);
+  }
+  &__text {
+    color: variables.$main-light-color;
+    position: absolute;
+    top: 30 rem;
+  }
+}
+
+cards-container-london {
+  position: relative;
+  &__image {
+    background-image: url(/public/images/london.webp);
+  }
+  &__text {
+    color: variables.$main-light-color;
+    position: absolute;
+    top: 30 rem;
+  }
+}
+
+cards-container-venice {
+  position: relative;
+  &__image {
+    background-image: url(/public/images/venice.webp);
+  }
+  &__text {
+    color: variables.$main-light-color;
+    position: absolute;
+    top: 30 rem;
+  }
+}
