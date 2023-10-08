@@ -1,34 +1,37 @@
 @use "../variables/variables";
 
-cards-container-berlin {
+.cards-container-berlin {
   position: relative;
-  &__image {
-  }
   &__text {
     color: variables.$main-light-color;
     position: absolute;
-    top: 30 rem;
+    z-index: 1;
+  }
+  &__text-location {
+    display: block;
   }
 }
 
-cards-container-london {
+.cards-container-london {
   position: relative;
-  &__image {
-  }
   &__text {
     color: variables.$main-light-color;
     position: absolute;
-    top: 30 rem;
+    z-index: 1;
+  }
+  &__text-location {
+    display: block;
   }
 }
 
-cards-container-venice {
+.cards-container-venice {
   position: relative;
-  &__image {
-  }
   &__text {
     color: variables.$main-light-color;
     position: absolute;
-    top: 30 rem;
+    z-index: 1;
+  }
+  &__text-location {
+    display: block;
   }
 }
