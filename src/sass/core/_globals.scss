@@ -1,7 +1,9 @@
-@use "../variables/variables";
+:root {
+  font-family: "Playfair Display", serif;
+}
 
 html {
-  font-family: variables.$primary-font-family;
+  font-family: "Rubik", sans-serif;
 }
 
 .globals-measurements {
