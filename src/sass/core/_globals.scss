@@ -1,6 +1,7 @@
+@use "../variables/variables";
+
 html {
-  font-family: "Playfair Display", serif;
-  font-family: "Rubik", sans-serif;
+  font-family: variables.$primary-font-family;
 }
 
 .globals-measurements {

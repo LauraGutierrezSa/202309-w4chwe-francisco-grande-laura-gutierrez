@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik:wght@300&display=swap"
     rel="stylesheet">
-  <link rel="shortcut icon" href="./favicon.png" type="/x-icon">
+  <link rel="shortcut icon" href="favicon.png" type="/x-icon">
   <link rel="stylesheet" href="./styles/styles.css">
   <title>Travellian</title>
 </head>
@@ -17,68 +17,38 @@
 <body>
   <div class="globals-measurements">
     <main>
-      <div class="popular-destination">
+      <div class="popular-destinations">
         <header>
-          <h1 class="h1-measurements">Popular Destinations</h1>
-          <hr class="popular-destination-line" />
+          <h1 class="popular-destinations__h1-measurements">Popular Destinations</h1>
+          <hr class="popular-destinations__line">
         </header>
         <p class="p-measurements">Most popular destinations around the world, from historical places to natural
           wonders.
         </p>
       </div>
-      <div class="card">
-        <div class="card__list">
-          <img class="images-location" src="images/berlin.webp" alt="Postal of Berlin city" width="288px"
-            height="320px">
+      <div class="cards-container globals-measurements">
+        <div class="card">
+          <img class="card__image" src="images/berlin.webp" alt="Postal of Berlin city" width="288px" height="320px">
         </div>
-        <div class="card__list-text">
-          <h2>Monument of Berlin</h2>
-          <span>
-            <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M3.5625 8.4375C3.5625 12.6054 6.74442 17.1274 9.55209 21.0351C10.2195 21.9634 10.8588 22.8526 11.415 23.6869C11.5454 23.8826 11.7652 24 12 24C12.2347 24 12.4545 23.8826 12.585 23.6869C13.1411 22.8526 13.7804 21.9634 14.4478 21.0351C17.2556 17.1274 20.4375 12.6054 20.4375 8.4375C20.4375 3.78478 16.6527 0 12 0C7.34728 0 3.5625 3.78478 3.5625 8.4375ZM16.2188 8.4375C16.2188 10.7639 14.3264 12.6562 12 12.6562C9.67364 12.6562 7.78125 10.7639 7.78125 8.4375C7.78125 6.11114 9.67364 4.21875 12 4.21875C14.3264 4.21875 16.2188 6.11114 16.2188 8.4375Z"
-                  fill="white" />
-                <path
-                  d="M12 11.25C13.5533 11.25 14.8125 9.9908 14.8125 8.4375C14.8125 6.8842 13.5533 5.625 12 5.625C10.4467 5.625 9.1875 6.8842 9.1875 8.4375C9.1875 9.9908 10.4467 11.25 12 11.25Z"
-                  fill="white" />
-              </svg>
-            </span>
-            <h3>Berlin, Germany</h3>
+        <div class="card__text">
+          <span>Monument of Berlin</span>
+          <span class="card__text__location"><i></i></>Berlin, Germany
           </span>
         </div>
-        <div class="card__list">
-          <img class="images-location" src="images/london.webp" alt="Postal of London city" width="288px"
-            height="320px">
+        <div class="card">
+          <img class="card__image" src="images/london.webp" alt="Postal of London city" width="288px" height="320px">
         </div>
-        <div class="card__list-text">
-          <h2>Millennium Bridge</h2>
-          <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M3.5625 8.4375C3.5625 12.6054 6.74442 17.1274 9.55209 21.0351C10.2195 21.9634 10.8588 22.8526 11.415 23.6869C11.5454 23.8826 11.7652 24 12 24C12.2347 24 12.4545 23.8826 12.585 23.6869C13.1411 22.8526 13.7804 21.9634 14.4478 21.0351C17.2556 17.1274 20.4375 12.6054 20.4375 8.4375C20.4375 3.78478 16.6527 0 12 0C7.34728 0 3.5625 3.78478 3.5625 8.4375ZM16.2188 8.4375C16.2188 10.7639 14.3264 12.6562 12 12.6562C9.67364 12.6562 7.78125 10.7639 7.78125 8.4375C7.78125 6.11114 9.67364 4.21875 12 4.21875C14.3264 4.21875 16.2188 6.11114 16.2188 8.4375Z"
-                fill="white" />
-              <path
-                d="M12 11.25C13.5533 11.25 14.8125 9.9908 14.8125 8.4375C14.8125 6.8842 13.5533 5.625 12 5.625C10.4467 5.625 9.1875 6.8842 9.1875 8.4375C9.1875 9.9908 10.4467 11.25 12 11.25Z"
-                fill="white" />
-            </svg>
-            <h3>London, United Kingdom</h3>
-          </span>
+        <div class="card__text">
+          <span>Millennium Bridge</span>
+          <span class="card__text__location"><i></i>London, United
+            Kingdom</span>
         </div>
-        <div class="card__list">
-          <img class="images-location" src="images/venice.webp" alt="Postal of Venice city" width="288px"
-            height="320px">
+        <div class="card">
+          <img class="card__image" src="images/venice.webp" alt="Postal of Venice city" width="288px" height="320px">
         </div>
-        <div class="card__list-text">
-          <h2>Rialto Bridge</h2>
-          <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M3.5625 8.4375C3.5625 12.6054 6.74442 17.1274 9.55209 21.0351C10.2195 21.9634 10.8588 22.8526 11.415 23.6869C11.5454 23.8826 11.7652 24 12 24C12.2347 24 12.4545 23.8826 12.585 23.6869C13.1411 22.8526 13.7804 21.9634 14.4478 21.0351C17.2556 17.1274 20.4375 12.6054 20.4375 8.4375C20.4375 3.78478 16.6527 0 12 0C7.34728 0 3.5625 3.78478 3.5625 8.4375ZM16.2188 8.4375C16.2188 10.7639 14.3264 12.6562 12 12.6562C9.67364 12.6562 7.78125 10.7639 7.78125 8.4375C7.78125 6.11114 9.67364 4.21875 12 4.21875C14.3264 4.21875 16.2188 6.11114 16.2188 8.4375Z"
-                fill="white" />
-              <path
-                d="M12 11.25C13.5533 11.25 14.8125 9.9908 14.8125 8.4375C14.8125 6.8842 13.5533 5.625 12 5.625C10.4467 5.625 9.1875 6.8842 9.1875 8.4375C9.1875 9.9908 10.4467 11.25 12 11.25Z"
-                fill="white" />
-            </svg>
-            <h3>Venice, Italy</h3>
-          </span>
+        <div class="card__text">
+          <span>Rialto Bridge</span>
+          <span class="card__text__location"><i></i>Venice, Italy</span>
         </div>
         <div class="button-container">
           <button type="button"></button>
