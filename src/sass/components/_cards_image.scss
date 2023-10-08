@@ -1,0 +1,20 @@
+@use "../variables/variables";
+
+.cards-container {
+  position: relative;
+}
+
+.card {
+  &__image {
+    object-fit: cover;
+    border-radius: 20px 20px;
+  }
+
+  &__text {
+    position: absolute;
+    color: variables.$main-light-color;
+    &--berlin {
+      top: 10px;
+    }
+  }
+}
