@@ -1,20 +1,37 @@
 @use "../variables/variables";
 
-.cards-container {
+cards-container-berlin {
   position: relative;
+  &__image {
+    background-image: url(/public/images/berlin.webp);
+  }
+  &__text {
+    color: variables.$main-light-color;
+    position: absolute;
+    top: 30 rem;
+  }
 }
 
-.card {
+cards-container-london {
+  position: relative;
   &__image {
-    object-fit: cover;
-    border-radius: 20px 20px;
+    background-image: url(/public/images/london.webp);
   }
-
   &__text {
-    position: absolute;
     color: variables.$main-light-color;
-    &--berlin {
-      top: 10px;
-    }
+    position: absolute;
+    top: 30 rem;
+  }
+}
+
+cards-container-venice {
+  position: relative;
+  &__image {
+    background-image: url(/public/images/venice.webp);
+  }
+  &__text {
+    color: variables.$main-light-color;
+    position: absolute;
+    top: 30 rem;
   }
 }

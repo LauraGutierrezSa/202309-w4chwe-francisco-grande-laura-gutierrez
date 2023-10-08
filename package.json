@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-styles": "sass src/sass/styles.scss public/styles/styles.css",
-    "build-styles:dev": "sass --watch src/sass/styles.css public/styles/styles.css",
+    "build-styles:dev": "sass src/sass/styles.scss public/styles/styles.css -w",
     "prepare": "husky install"
   },
   "author": "",
