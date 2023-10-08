@@ -35,3 +35,26 @@
     display: block;
   }
 }
+
+.cards-container--hidden {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .cards-container--hidden {
+    display: flex;
+  }
+
+  .cards-container__image {
+    height: 661px;
+    width: 497px;
+    min-width: 500px;
+  }
+  .cards-container {
+    display: flex;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

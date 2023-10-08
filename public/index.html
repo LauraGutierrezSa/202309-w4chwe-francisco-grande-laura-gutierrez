@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik:wght@300&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c18e08df47.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="favicon.png" type="/x-icon">
   <link rel="stylesheet" href="https://fontawesome.com/icons/location-dot?f=classic&s=solid">
   <link rel="stylesheet" href="./styles/styles.css">
@@ -21,6 +22,10 @@
       <header>
         <h1 class="popular-destinations__h1-measurements">Popular Destinations</h1>
         <hr class="popular-destinations__line">
+        <div class="chevron-container chevron--hidden">
+          <i class="fa-solid fa-chevron-left chevron chevron--hidden chevron--left"></i>
+          <i class="fa-solid fa-chevron-right chevron chevron--hidden chevron--right"></i>
+        </div>
       </header>
       <p class="p-measurements">Most popular destinations around the world, from historical places to natural
         wonders.
@@ -38,7 +43,7 @@
             </span>
           </div>
         </div>
-        <div class="cards-container-london">
+        <div class="cards-container-london cards-container--hidden">
           <div class="cards-container-london__image">
             <img src="./images/london.webp" alt="Millennium bridge of London" width="400" height="300">
           </div>
@@ -48,7 +53,7 @@
               Kingdom</span>
           </div>
         </div>
-        <div class="cards-container-venice">
+        <div class="cards-container-venice cards-container--hidden">
           <div class="cards-container-venice__image">
             <img src="./images/venice.webp" alt="Rialto Bridge of Venice" width="400" height="300">
           </div>
@@ -58,9 +63,9 @@
               Italy</span>
           </div>
         </div>
-        <div class="button-container">
-          <button type="button" class="button-container__left-button"></button>
-          <button type="button" class="button-container__right-button"></button>
+        <div class="chevron-container chevron-container-away">
+          <i class="fa-solid fa-chevron-left chevron chevron--left"></i>
+          <i class="fa-solid fa-chevron-right chevron chevron--right"></i>
         </div>
       </div>
     </main>
