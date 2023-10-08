@@ -27,7 +27,30 @@
 }
 
 @media (min-width: 767px) {
+  .chevron-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .chevron--hidden {
     display: block;
+  }
+
+  .chevron {
+    padding: 12px 23px;
+    border-radius: 12px;
+    color: variables.$main-light-color;
+    font-size: 20px;
+
+    &--left {
+      background: variables.$third-dark-color;
+      margin-right: 10px;
+    }
+
+    &--right {
+      background: variables.$primary-dark-color;
+      margin-left: 10px;
+    }
   }
 }

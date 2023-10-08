@@ -43,6 +43,9 @@
 @media (min-width: 767px) {
   .cards-container--hidden {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .cards-container__image {
