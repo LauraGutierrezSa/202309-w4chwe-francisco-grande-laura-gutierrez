@@ -3,7 +3,6 @@
 cards-container-berlin {
   position: relative;
   &__image {
-    background-image: url(/public/images/berlin.webp);
   }
   &__text {
     color: variables.$main-light-color;
@@ -15,7 +14,6 @@ cards-container-berlin {
 cards-container-london {
   position: relative;
   &__image {
-    background-image: url(/public/images/london.webp);
   }
   &__text {
     color: variables.$main-light-color;
@@ -27,7 +25,6 @@ cards-container-london {
 cards-container-venice {
   position: relative;
   &__image {
-    background-image: url(/public/images/venice.webp);
   }
   &__text {
     color: variables.$main-light-color;
