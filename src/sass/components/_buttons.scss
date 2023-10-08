@@ -1,11 +1,19 @@
 @use "../variables/variables";
 
-.button {
-  width: 60px;
-  height: 66px;
-  background-color: variables.$third-dark-color;
-  border-radius: 12px;
-  padding: 28px 20px 28px 20px;
-  gap: 4px;
-  rotate: -90º;
+.button-container {
+  display: flex;
+  flex-direction: row;
+  width: 172px;
+  height: 60px;
+  gap: 40px;
+
+  &_.button {
+    width: 60px;
+    height: 66px;
+    background-color: variables.$third-dark-color;
+    border-radius: 12px;
+    padding: 28px 20px 28px 20px;
+    gap: 4px;
+    rotate: -90º;
+  }
 }
