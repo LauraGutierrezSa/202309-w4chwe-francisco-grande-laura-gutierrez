@@ -8,7 +8,7 @@
   overflow: scroll;
 }
 
-img {
+.cards-container__image {
   object-fit: cover;
   border-radius: 20px;
   filter: sepia(0.2);
@@ -73,28 +73,21 @@ img {
   }
 }
 
-.cards-container--hidden {
-  display: none;
-}
-
 @media (min-width: 767px) {
-  .cards-container--hidden {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .cards-container__image {
-    height: 661px;
-    width: 497px;
-    min-width: 500px;
-  }
   .cards-container {
     display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 30px;
     overflow-x: scroll;
     &::-webkit-scrollbar {
       display: none;
+    }
+
+    .cards-container__image {
+      height: 661px;
+      width: 497px;
+      min-width: 500px;
     }
   }
 }
