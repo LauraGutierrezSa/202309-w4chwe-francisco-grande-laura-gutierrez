@@ -2,11 +2,9 @@
 
 .popular-destinations {
   background-color: variables.$main-light-color;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
-  gap: 2rem;
 
   &__h1-measurements {
     font-family: variables.$primary-font-family;
@@ -33,13 +31,18 @@
 }
 
 @media (min-width: 767px) {
+  .p-measurements {
+    font-size: variables.$fourth-font-size;
+  }
+
   .popular-destinations {
     background-color: variables.$main-light-color;
-    display: flex;
     flex-direction: column;
     align-items: flex-end;
     flex: 1 0 0;
-
+    &__h1-measurements {
+      font-size: 64px;
+    }
     &__subheader {
       display: flex;
       flex-direction: row;

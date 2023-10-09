@@ -1,19 +1,22 @@
 @use "../variables/variables";
 
+img {
+  border-radius: 20px;
+  width: 288px;
+  height: 320px;
+  object-fit: cover;
+}
+
 .cards-container {
   display: flex;
   flex-direction: row;
   position: relative;
   gap: 30px;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .cards-container__image {
-  object-fit: cover;
-  border-radius: 20px;
   filter: sepia(0.2);
-  width: 288px;
-  height: 320px;
 }
 
 .cards-container-berlin {
@@ -74,20 +77,39 @@
 }
 
 @media (min-width: 767px) {
+  img {
+    object-fit: cover;
+    filter: sepia(0.2);
+    width: 497px;
+    height: 661px;
+  }
   .cards-container {
     display: flex;
     flex-direction: row;
     position: relative;
-    gap: 30px;
     overflow-x: scroll;
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    gap: 30px;
+  }
 
-    .cards-container__image {
-      height: 661px;
-      width: 497px;
-      min-width: 500px;
+  .cards-container-berlin {
+    &__text {
+      font-size: 24px;
+      bottom: 40px;
+      left: 40px;
+    }
+  }
+  .cards-container-london {
+    &__text {
+      font-size: 24px;
+      bottom: 40px;
+      left: 40px;
+    }
+  }
+  .cards-container-venice {
+    &__text {
+      font-size: 24px;
+      bottom: 40px;
+      left: 40px;
     }
   }
 }
